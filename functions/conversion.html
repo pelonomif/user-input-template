@@ -24,16 +24,20 @@
         <script>
 
         // step 1
-        // Create const for conversion
+        const factor= 0.621371 
 
 
         // step 2
         // Get user input and save to variable
-
+        function kilometers(){
+            const input = document.getElementById("userInput").value;
+            alert(input);
+        }
+       const input = prompt("Enter value in kilometers")
 
         // step 3
         // Perform calculation and save result
-
+        const mile = input * factor
 
         // step 4
         // Display result in DOM, alert or console
