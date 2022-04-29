@@ -24,7 +24,7 @@
         <script>
 
         // step 1
-        const factor= 0.621371 
+        const miles= 0.621371 
 
 
         // step 2
@@ -33,15 +33,15 @@
             const input = document.getElementById("userInput").value;
             alert(input);
         }
-       const input = prompt("Enter value in kilometers")
+       let input = prompt("Please enter Kilometers to be converted")
 
         // step 3
         // Perform calculation and save result
-        const mile = input * factor
+        let result = input * miles
 
         // step 4
         // Display result in DOM, alert or console
-        console.log("The distance of " + input + "km after being converted is " + mile + " in miles");
+        console.log("The distance of " + input + "km after being converted is " + result + " in miles");
 
         </script>
         <!-- End of Script -->
